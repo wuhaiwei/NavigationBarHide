@@ -13,6 +13,7 @@
 		FDF485E51D73132A004B480A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF485E31D73132A004B480A /* Main.storyboard */; };
 		FDF485E71D73132A004B480A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF485E61D73132A004B480A /* Assets.xcassets */; };
 		FDF485EA1D73132A004B480A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF485E81D73132A004B480A /* LaunchScreen.storyboard */; };
+		FDF485F31D73134D004B480A /* SecondViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF485F21D73134D004B480A /* SecondViewVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FDF485E61D73132A004B480A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF485E91D73132A004B480A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDF485EB1D73132A004B480A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF485F11D73134D004B480A /* SecondViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewVC.h; sourceTree = "<group>"; };
+		FDF485F21D73134D004B480A /* SecondViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				FDF485DE1D73132A004B480A /* AppDelegate.m */,
 				FDF485E01D73132A004B480A /* ViewController.h */,
 				FDF485E11D73132A004B480A /* ViewController.m */,
+				FDF485F11D73134D004B480A /* SecondViewVC.h */,
+				FDF485F21D73134D004B480A /* SecondViewVC.m */,
 				FDF485E31D73132A004B480A /* Main.storyboard */,
 				FDF485E61D73132A004B480A /* Assets.xcassets */,
 				FDF485E81D73132A004B480A /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF485E21D73132A004B480A /* ViewController.m in Sources */,
+				FDF485F31D73134D004B480A /* SecondViewVC.m in Sources */,
 				FDF485DF1D73132A004B480A /* AppDelegate.m in Sources */,
 				FDF485DC1D73132A004B480A /* main.m in Sources */,
 			);

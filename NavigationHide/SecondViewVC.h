@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewVC.h
 //  NavigationHide
 //
 //  Created by  wuhiwi on 16/8/28.
@@ -7,11 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SecondViewVC.h"
 
-
-@interface ViewController : UIViewController
-
+@interface SecondViewVC : UIViewController
 
 @end
-
